@@ -1,0 +1,48 @@
+.container-lyrics {
+    /* background-size: cover; */
+    position: absolute;
+    width: 703.4px;
+    height: 550px;
+    left: 555.35px;
+    top: 0px;
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 10px;
+    background-image: url({});
+    border-radius: 86% 14% 85% 15% / 21% 80% 20% 79%;
+    z-index: 1;
+}
+
+.container-lyrics::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 86% 14% 85% 15% / 21% 80% 20% 79%;
+    background-color: rgba(0, 0, 0, 0.4); /* overlay transparan */
+    z-index: 1;
+}
+
+.container-lyrics-now {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    width: 703.4px;
+    height: 676.81px;
+    top: 0px;
+    z-index: 5;
+}
+
+.lyrics-song {
+    position: relative;
+    z-index: 10; /* teks biar di atas overlay */
+    color: whitesmoke;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,18 @@
+.songlist-container {
+  height: auto;
+  width: calc(100vw - 30px);
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.list-lagu {
+    justify-content: center;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
