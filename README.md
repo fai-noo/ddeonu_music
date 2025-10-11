@@ -1,7 +1,7 @@
 # 🎵 React Music Player Kpop especially Enhypen and Sunoo
 
-A simple and elegant **Music Player App** built with React.  
-This app allows users to play, pause, and navigate through songs with a clean and modern UI. It also features **synchronized lyrics** so you can sing along just like karaoke 🎤✨.  
+A simple and elegant **Music Player** built with React.  
+This allows users to play, pause, and navigate through songs with a clean and modern UI. It also features **synchronized lyrics** so you can sing along just like karaoke 🎤✨.  
 
 ---
 
